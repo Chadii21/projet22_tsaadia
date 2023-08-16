@@ -1,7 +1,12 @@
 header {
     /* display: flex; */
     color: #000;
+    position: fixed;
     background-image: url("./v3.jpg");
+}
+header {
+    /* display: flex; */
+    color: #000;
     position: fixed;
 }
 
@@ -13,27 +18,108 @@ nav .div1 {
 /* nav .div2 {
     padding-left: 320px;
 } */
+.page h3 {
+    padding-left: 458px;
+    color: azure;
+    height: 270px;
+}
+header h3 {
+    padding-left: 458px;
+    color: azure;
+}
+.page h1 {
+    padding-left: 650px;
+    padding-top: 20px;
+    color: azure;
+}
 header h1 {
     padding-left: 650px;
     padding-top: 20px;
     color: azure;
 }
-
+.page {
+    height: 620px;
+    background-image: url("./v3.jpg");
+    padding-top: 280px;
+    color: bisque;
+}
+.patisseries {
+    height: 620px;
+    background-image: url("./psu5.jpg");
+    padding-top: 280px;
+    color: black;
+    padding-left: 450px;
+}
+.grill {
+    height: 620px;
+    background-image: url("./gl.jpg");
+    padding-top: 320px;
+    color: black;
+    padding-left: 520px;
+}
+.form {
+    padding-top: 50px;
+}
+.h1 {
+    margin-right: 240px;
+    margin-left: 250px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.insc {
+    margin-right: 240px;
+    margin-left: 250px;
+    margin-top: 35px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+}
 body2 h1 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
 }
-
-body3 h1 {
+.h2 {
+    color: azure;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 35px;
+}
+.im3 {
+    height: 100%;
+    width: 100%;
+    margin-left: 15px;
+    margin-right: 15px;
+    justify-content: center;
+}
+.vid {
+    display: flex;
+}
+body3 h1,
+body3 h2 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
 }
-
-header h3 {
-    padding-left: 458px;
-    color: azure;
+body4 h1,
+body4 h2 {
+    padding-left: 450px;
+    padding-top: 20px;
+    color: black;
+}
+body5 h1 {
+    padding-left: 450px;
+    padding-top: 20px;
+    color: black;
+}
+.psu , .psa {
+    padding-top: 60px;
+    margin-right: 40px;
+    margin-left: 40px;
 }
 
 .left1 {
@@ -44,14 +130,16 @@ header h3 {
     margin-bottom: 40px;
 
 }
-
+.im1 , .im2 {
+    display: flex;
+}
 .homepage {
     margin-left: 80px;
     margin-right: 40px;
     /* display: flex; */
     /* background-color: green;
     color: #fff; */
-    padding-top: 200px;
+    padding-top: 30px;
 }
 
 .footer {
@@ -64,16 +152,28 @@ header h3 {
     height: 200px;
     width: 200px;
 }
-
+.imgg {
+    height: 200px;
+    width: 200px;
+    padding-left: 10px;
+}
 .img2 {
     height: 350px;
     width: 400px;
     display: flex;
 }
-
+.im4 {
+    height: 600px;
+    width: 850px;
+}
+.im5 {
+    height: 350px;
+    width: 400px;
+    padding-left: 300px;
+}
 .plantes {
     justify-content: space-between;
-    padding-top: 200px;
+    padding-top: 60px;
     margin-right: 40px;
     margin-left: 40px;
 }
@@ -111,30 +211,323 @@ header h3 {
     margin-bottom: 55px;
     display: flex;
 }
-
+.fin {
+    display: flex;
+}
+.end {
+    background-color: gray;
+    color: azure;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 35px;
+}
+.logos {
+    display: flex;
+}
+.logo {
+    height: 30px;
+    width: 30px;
+    padding-left: 5px;
+    color: wheat;
+}
 /* .gp , .gl , .gv {
     display: flex;
 } */
 
 
-
-
-@media(max-width: 700px) {
+@media(max-width: 1200px) {
     header {
         flex-direction: column;
         padding: 0;
         margin: 0;
         position: relative;
         display: block;
+        width: 100%;
     }
 
     header h1 {
         padding: 10px;
+        width: 50%;
     }
 
     .homepage {
         flex-direction: column;
         padding: 0;
         margin: 0;
+        width: 100%;
+    }
+    .right1 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .left1 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .img {
+        margin: 0;
+        padding: 0;
+        /* height: 40px;
+        width: 40px; */
+    }
+    .insc {
+        flex-direction: column;
+        width: 50%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    .plantes {
+        flex-direction: column;
+        width: 100%;
+    }
+    .grill {
+        flex-direction: column;
+        width: 100%;
+    }
+    .patisseries {
+        flex-direction: column;
+        width: 100%;
+    }
+    .page {
+        flex-direction: column;
+        width: 100%;
+    }
+    .end {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .fin {
+        flex-direction: column;
+        width: 100%;
+    }
+    .epic {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section4{
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media(max-width: 900px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: block;
+        width: 50%;
+    }
+
+    header h1 {
+        padding: 10px;
+        width: 50%;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+    .plantes {
+        flex-direction: column;
+        width: 50%;
+    }
+    .grill {
+        flex-direction: column;
+        width: 50%;
+    }
+    .patisseries {
+        flex-direction: column;
+        width: 50%;
+    }
+    .page {
+        flex-direction: column;
+        width: 50%;
+    }
+    .end {
+        flex-direction: column;
+        width: 50%;
+    }
+    .fin {
+        flex-direction: column;
+        width: 50%;
+    }
+    .epic {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section2 {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section4{
+        flex-direction: column;
+        width: 50%;
+    }
+}
+@media(max-width: 600px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: block;
+        width: 50%;
+    }
+
+    header h1 {
+        padding: 10px;
+        width: 50%;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 50%;
+    }
+    .plantes {
+        flex-direction: column;
+        width: 50%;
+    }
+    .grill {
+        flex-direction: column;
+        width: 50%;
+    }
+    .patisseries {
+        flex-direction: column;
+        width: 50%;
+    }
+    .page {
+        flex-direction: column;
+        width: 50%;
+    }
+    .end {
+        flex-direction: column;
+        width: 50%;
+    }
+    .fin {
+        flex-direction: column;
+        width: 50%;
+    }
+    .epic {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section2 {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 50%;
+    }
+    .section4{
+        flex-direction: column;
+        width: 50%;
+    }
+}
+@media(max-width: 300px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: block;
+        width: 100%;
+    }
+
+    header h1 {
+        padding: 10px;
+        width: 100%;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+    .plantes {
+        flex-direction: column;
+        width: 100%;
+    }
+    .grill {
+        flex-direction: column;
+        width: 100%;
+    }
+    .patisseries {
+        flex-direction: column;
+        width: 100%;
+    }
+    .page {
+        flex-direction: column;
+        width: 100%;
+    }
+    .end {
+        flex-direction: column;
+        width: 100%;
+    }
+    .fin {
+        flex-direction: column;
+        width: 100%;
+    }
+    .epic {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section2 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section3 {
+        flex-direction: column;
+        width: 100%;
+    }
+    .section4{
+        flex-direction: column;
+        width: 100%;
+    }
+    .right1 {
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .img {
+        margin: 0;
+        padding: 0;
+        height: 40px;
+        width: 40px;
+    }
+    .insc {
+        flex-direction: column;
+        width: 50%;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
     }
 }
