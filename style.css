@@ -1,0 +1,140 @@
+header {
+    /* display: flex; */
+    color: #000;
+    background-image: url("./v3.jpg");
+    position: fixed;
+}
+
+nav .div1 {
+    padding-right: 925px;
+    display: flex;
+}
+
+/* nav .div2 {
+    padding-left: 320px;
+} */
+header h1 {
+    padding-left: 650px;
+    padding-top: 20px;
+    color: azure;
+}
+
+body2 h1 {
+    padding-left: 450px;
+    padding-top: 20px;
+    color: black;
+}
+
+body3 h1 {
+    padding-left: 450px;
+    padding-top: 20px;
+    color: black;
+}
+
+header h3 {
+    padding-left: 458px;
+    color: azure;
+}
+
+.left1 {
+    justify-content: space-around;
+    margin-left: 180px;
+    margin-right: 180px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.homepage {
+    margin-left: 80px;
+    margin-right: 40px;
+    /* display: flex; */
+    /* background-color: green;
+    color: #fff; */
+    padding-top: 200px;
+}
+
+.footer {
+    padding-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.img {
+    height: 200px;
+    width: 200px;
+}
+
+.img2 {
+    height: 350px;
+    width: 400px;
+    display: flex;
+}
+
+.plantes {
+    justify-content: space-between;
+    padding-top: 200px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.section2 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.section3 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.epic {
+    border-radius: 5px;
+    margin-right: 45px;
+    margin-left: 45px;
+    margin-top: 60px;
+    background-color: bisque;
+    margin-bottom: 55px;
+    display: flex;
+}
+
+/* .gp , .gl , .gv {
+    display: flex;
+} */
+
+
+
+
+@media(max-width: 700px) {
+    header {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        display: block;
+    }
+
+    header h1 {
+        padding: 10px;
+    }
+
+    .homepage {
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+    }
+}
