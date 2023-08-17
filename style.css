@@ -1,8 +1,9 @@
+
 header {
     /* display: flex; */
     color: #000;
     position: fixed;
-    background-image: url("./v3.jpg");
+    /* background-image: url("./v3.jpg"); */
 }
 header {
     /* display: flex; */
@@ -19,18 +20,20 @@ nav .div1 {
     padding-left: 320px;
 } */
 .page h3 {
-    padding-left: 458px;
+    padding-left: 200px;
     color: azure;
     height: 270px;
 }
 header h3 {
-    padding-left: 458px;
+    padding-left: 250px;
     color: azure;
+    font-size: 40px;
 }
 .page h1 {
-    padding-left: 650px;
+    padding-left: 270px;
     padding-top: 20px;
     color: azure;
+    font-size: 60px;
 }
 header h1 {
     padding-left: 650px;
@@ -39,13 +42,16 @@ header h1 {
 }
 .page {
     height: 620px;
-    background-image: url("./v3.jpg");
-    padding-top: 280px;
+    background-image: url("./legumes.avif") ;
+    background-size: cover;
+    padding-top: 240px;
     color: bisque;
+    
 }
 .patisseries {
     height: 620px;
-    background-image: url("./psu5.jpg");
+    background-image: url("./cake.avif");
+    background-size: cover;
     padding-top: 280px;
     color: black;
     padding-left: 450px;
@@ -61,9 +67,9 @@ header h1 {
     padding-top: 50px;
 }
 .h1 {
-    margin-right: 240px;
-    margin-left: 250px;
-    margin-top: 35px;
+    /* margin-right: 240px; */
+    margin-left: 80px;
+    padding-bottom: 35px;
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
@@ -76,7 +82,7 @@ header h1 {
     display: flex;
     justify-content: space-between;
 }
-body2 h1 {
+body2 .h1 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
@@ -99,19 +105,24 @@ body2 h1 {
 .vid {
     display: flex;
 }
-body3 h1,
-body3 h2 {
+body3 .h1,
+body3 .h2 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
 }
-body4 h1,
-body4 h2 {
+body4 .h1,
+body4 .h2 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
 }
 body5 h1 {
+    padding-left: 450px;
+    padding-top: 20px;
+    color: black;
+}
+body5 h3 {
     padding-left: 450px;
     padding-top: 20px;
     color: black;
@@ -143,7 +154,7 @@ body5 h1 {
 }
 
 .footer {
-    padding-top: 200px;
+    padding-top: 40px;
     margin-right: 40px;
     margin-left: 40px;
 }
@@ -165,6 +176,7 @@ body5 h1 {
 .im4 {
     height: 600px;
     width: 850px;
+    padding-top: 15px;
 }
 .im5 {
     height: 350px;
@@ -193,7 +205,13 @@ body5 h1 {
     margin-left: 40px;
     margin-top: 50px;
 }
-
+.pa {
+    height: 620px;
+    background-image: url("./v3.jpg");
+    padding-top: 320px;
+    color: black;
+    padding-left: 520px;
+}
 .section4 {
     display: flex;
     justify-content: space-between;
@@ -201,7 +219,11 @@ body5 h1 {
     margin-left: 40px;
     margin-top: 50px;
 }
-
+.feuilles, .epices, .tisanes {
+    margin-right: 250px;
+    margin-left: 250px;
+    margin-top: 100px;
+}
 .epic {
     border-radius: 5px;
     margin-right: 45px;
@@ -216,21 +238,37 @@ body5 h1 {
 }
 .end {
     background-color: gray;
-    color: azure;
-    padding-left: 70px;
-    padding-right: 70px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin-top: 35px;
+    color: black;
+    justify-content: space-around;
+    /* padding-left: 500px; */
+    /* padding-right: 570px; */
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    display: flex;
 }
+/* .end p {
+    padding-top: 20px;
+} */
 .logos {
     display: flex;
 }
 .logo {
     height: 30px;
     width: 30px;
-    padding-left: 5px;
+    padding-left: 8px;
     color: wheat;
+}
+.trois {
+    display: flex;
+    margin-top: 60px;
+    margin-left: 20px;
+    justify-content: space-around;
+}
+.foot {
+    background-image: url("./psu7\ \(1\).jpg");
+    height: 620px;
+    padding-top: 320px;
 }
 /* .gp , .gl , .gv {
     display: flex;
@@ -435,19 +473,19 @@ body5 h1 {
     }
     .epic {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
     .section2 {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
     .section3 {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
     .section4{
         flex-direction: column;
-        width: 50%;
+        width: 100%;
     }
 }
 @media(max-width: 300px) {
@@ -495,6 +533,15 @@ body5 h1 {
         flex-direction: column;
         width: 100%;
     }
+    body5 h1 {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        width: 100%;
+    }
+    body5 {
+        width: 100%;
+    }
     .epic {
         flex-direction: column;
         width: 100%;
@@ -525,7 +572,7 @@ body5 h1 {
     }
     .insc {
         flex-direction: column;
-        width: 50%;
+        width: 100%;
         box-sizing: border-box;
         margin: 0;
         padding: 0;
